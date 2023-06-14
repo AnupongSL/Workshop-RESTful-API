@@ -6,7 +6,6 @@ module.exports = {
       item.created_at = new Date()
       item.updated_at = new Date()
     })
-
     await queryInterface.bulkInsert('Products', data, {});
   },
 

@@ -36,7 +36,7 @@ Content-Disposition: form-data; name="stock"
 Content-Disposition: form-data; name="image"; filename="demo.png"
 Content-Type: image/png
 
-< ./demo01.JPG
+< ./demo1.JPG
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 ###
 PUT {{product_api}}/16 HTTP/1.1
@@ -59,7 +59,7 @@ Content-Disposition: form-data; name="stock"
 Content-Disposition: form-data; name="image"; filename="demo.png"
 Content-Type: image/png
 
-< ./demo02.JPG
+< ./demo2.JPG
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 ###
 DELETE {{product_api}}/2 HTTP/1.1

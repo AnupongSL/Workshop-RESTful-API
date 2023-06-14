@@ -1,6 +1,6 @@
-const router = require('express').Router()
+const router = require('express').Router();
 const accountController = require('../controllers/account.controller');
-const jwt = require('../configs/jwt')
+const jwt = require('../configs/jwt');
 
 router.post('/register', accountController.register)
 router.post('/login', accountController.login)

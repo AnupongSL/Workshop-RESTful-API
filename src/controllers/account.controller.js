@@ -1,5 +1,4 @@
 const accountService = require('../services/account.service')
-
 /**
  * @swagger
  * /account/register:

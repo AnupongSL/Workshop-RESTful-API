@@ -1,4 +1,4 @@
-const db = require('../db/models')
+const db = require('../db/models');
 
 exports.add = async (account) => await db.Accounts.create(account)
 

@@ -1,5 +1,5 @@
-const db = require('../db/models')
-const { Op } = require('sequelize')
+const db = require('../db/models');
+const { Op } = require('sequelize');
 
 exports.findAll = async () => await db.Products.findAll({
     order: [
